@@ -15,5 +15,5 @@ set working directory in terminal
 
 # Usage
 
-Make sure to replace /dev/sdaX with the actual partition you want to check. Save the script to the file, (Karma.sh) and then make it executable using the command `chmod +x Karma.sh`
+Make sure to replace /dev/sdaX with the actual partition you want to check. To find the partition you want to check run `lsblk` this will list all of your block devices. Save the script to the file, (Karma.sh) and then make it executable using the command `chmod +x Karma.sh`
 Depending on your system configuration you may have to invoke root access via sudo.
