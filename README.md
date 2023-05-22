@@ -1,15 +1,14 @@
-# Neuralyne
-Right now, Neuralyne is a proof of concept wrapper that dynamically allocates memory page size based on load, tested on stress-ng.
+# Karma
+Karma is a tool that diagnioses and repairs filesystem errors.
 
 # Dependancies
-Neuralyne uses sysctl and stress-ng although the latter isn't needed if you edit the script
+Karma uses FSCK.
 
 # Goals
 - A pretty GTK gui.
-- Ryzen clustered multithreading using CPPC as well as CCX proximity.
-- Adaptive Page file size mutification in real time.
+- Inclusion in Adrenalin performance suite.
 
 # Installation
 set working directory in terminal
-`chmod +x Neuralyne.sh`
-`sudo ./Neuralyne.sh`
+`chmod +x Karma.sh`
+`sudo ./Karma.sh`
